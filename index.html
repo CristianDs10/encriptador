@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Encriptador de Texto</h1>
+    </header>
+    <main>
+        <div class="input-container">
+            <textarea id="input-text" placeholder="Introduce tu texto aquí..."></textarea>
+            <div class="button-container">
+                <button id="encrypt-btn">Cifrar</button>
+                <button id="decrypt-btn">Descifrar</button>
+            </div>
+            <p id="validation-message"></p>
+        </div>
+        <div class="output-container">
+            <textarea id="output-text" readonly></textarea>
+            <button id="copy-btn">Copiar</button>
+        </div>
+    </main>
+    <footer>
+        <p>Creado por Cristian Segura, 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
